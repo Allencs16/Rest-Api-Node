@@ -21,7 +21,7 @@ router.get('/:id_pedido', (req, res, next) => {
     });
 });
 
-router.delete('/delete', (req, res, next) => {
+router.delete('/', (req, res, next) => {
     res.status(200).send({
         mensagem: 'Pedido Apagado'
     });
